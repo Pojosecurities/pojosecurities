@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pojo Securities</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style type="text/css">
+
+        .main {
+        width:200px;
+        border:1px solid black;
+        }
+        
+        .month {
+        background-color:black;
+        font:bold 12px verdana;
+        color:white;
+        }
+        
+        .daysofweek {
+        background-color:gray;
+        font:bold 12px verdana;
+        color:white;
+        }
+        
+        .days {
+        font-size: 12px;
+        font-family:verdana;
+        color:black;
+        background-color: lightyellow;
+        padding: 2px;
+        }
+        
+        .days #today{
+        font-weight: bold;
+        color: red;
+        }
+        
+        </style>
+
+<script type="text/javascript" src="javascript.js">
+        
+        
+</script> 
+</head>
+<body>
+
+    <div class="box">
+
+        <header>
+            <img src="images/img.jpg" alt="Logo for Pojo Securities">
+        </header>
+    
+        <nav>
+           <a href="OurCompany.html">OUR COMPANY</a>
+           <a href="Products&Services.html">PRODUCTS & SERVICES</a>
+           <a href="Research.html">RESEARCH</a>
+           <a href="CustomerServices.html">CUSTOMER SERVICES</a>
+           <a href="Price.html">PRICE LIST</a>
+           <a href="Form.html">FORM</a>
+        </nav>
+    
+        <main>
+            <h1>Market Flow</h1>
+            <p>Follow the most recent stock news. Make informed investment decisions today. Find out the latest stock news. Check out the most important news today. Latest Stock News. Analyst Shares Coverage. 
+            Daily Stock News. New Analyst Report. Top Daily Shares to Buy. Fresh Investment Reports. 
+            Find Which Stock To Buy. Types: Latest Report on Shares, Analyst Recommendation.</p>
+            <a href="mailto:pojosecuries@hotmail.com?Subjet=BookAppointment">Book Appointment</a>
+        
+        </main>
+        <section>
+            <h2>Price Movement</h2>
+            <iframe src="images/Market Video/MARKET PROJET - Copy.webm" frameborder="0">
+            </iframe>            <iframe src="images/Market Video/MARKET  MOVES.webm" frameborder="0"></iframe>
+             
+           <h3>
+            <script type="text/javascript">
+          
+              var todaydate=new Date()
+              var curmonth=todaydate.getMonth()+1 //get current month (1-12)
+              var curyear=todaydate.getFullYear() //get current year
+              
+              document.write(buildCal(curmonth ,curyear, "main", "month", "daysofweek", "days", 1));
+              </script>
+              </h3>
+        </section>
+
+        <section class="maps">
+            <h2>Our Location</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2308.320952364792!2d-0.10122268436387932!3d51.51505337963633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ab53829a9b%3A0xfea511b85f855eb2!2sLondon%20Stock%20Exchange!5e1!3m2!1sen!2suk!4v1665938418934!5m2!1sen!2suk" width="1020" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    
+        <footer>
+            <p>Pojo Stock Exchange Ltd, Best online brokers for stock trading</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
